@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suryaNoble/convo.git"
+    "url": "git+https://github.com/suryaNoble/goChat.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/suryaNoble/convo/issues"
+    "url": "https://github.com/suryaNoble/goChat/issues"
   },
-  "homepage": "https://github.com/suryaNoble/convo#readme",
+  "homepage": "https://github.com/suryaNoble/goChat#readme",
   "description": ""
 }
