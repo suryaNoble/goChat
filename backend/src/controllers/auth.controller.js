@@ -11,7 +11,9 @@ export const signup = async (req, res) => {
     }
 
     if (password.length < 6) {
-      return res.status(400).json({ message: "Password must be at least 6 characters" });
+      return res
+        .status(400)
+        .json({ message: "Password must be at least 6 characters" });
     }
 
     const user = await User.findOne({ email });
@@ -110,6 +112,8 @@ export const updateProfile = async (req, res) => {
 
 export const checkAuth = (req, res) => {
   try {
+    console.log("this is checkauth in authcontroller");
+    console.log(req.user);
     res.status(200).json(req.user);
   } catch (error) {
     console.log("Error in checkAuth controller", error.message);
